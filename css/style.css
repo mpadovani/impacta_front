@@ -1,0 +1,288 @@
+.headerTopo {
+  padding-top: 45px;
+}
+
+
+.textoTopo {
+  background-color: #F9C406;
+  color: #313430;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* Layout Cursos */
+
+.header-cursos {
+  display: flex;
+}
+
+.cursos {
+  color: #fff;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textoTopo h1,h2 {
+  margin: 0;
+}
+
+.img-container {
+    width: 25%;
+    float: left;
+}
+
+.condicao-inner {
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.verde .condicao-inner, .verde .mobile-condicoes {
+    background-color: #0D683D;
+}
+
+.vermelho .condicao-inner, .vermelho .mobile-condicoes {
+    background-color: #8F1721;
+}
+
+.laranja .condicao-inner, .laranja .mobile-condicoes {
+    background-color: #B65E17;
+}
+
+.roxo .condicao-inner, .roxo .mobile-condicoes {
+    background-color: #490B6E;
+}
+
+.cinza .condicao-inner, .cinza .mobile-condicoes {
+    background-color: #474747;
+}
+
+.verde {
+    background-color: #1BB26D;
+}
+
+.vermelho {
+  background-color: #BF1E2E;
+}
+
+.laranja {
+  background-color: #F38128;
+}
+
+.cinza {
+  background-color: #8E8E8E;
+}
+
+.roxo {
+  background-color: #771AB1;
+}
+
+
+/* Contato */
+
+#contato {
+  margin-top: 20px;
+}
+
+#contato-text {
+    background-color: #FF8500;
+    margin-bottom: 50px;
+}
+
+#contato-text p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.btn-contato {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 10px 40px;
+    background-color: #0478CB;
+    color: #FFF;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+      .mobile {
+        display: inline;
+      }
+
+      .desktop {
+        display: none;
+      }
+      
+      .textoTopo {
+        margin: 0;
+      }
+      /* TOPO */
+      .textoTopo h1 {
+        font-size: 1em;
+      }
+
+
+      .textoTopo h2 {
+        font-size: 0.7em;
+      }
+
+      /* Contato */
+
+      #contato-text p {
+        font-size: 0.8em;
+      }
+
+      .btn-contato {
+        font-size: 0.9em;
+      }
+
+      .header-cursos {
+        margin-top: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+
+      .curso-title {
+        font-size: 0.9em;
+        text-align: center;
+      }
+
+      .curso-item {
+        font-size: 0.8em;
+        text-align: center;
+      }
+
+      .mobile-condicoes {
+          border-radius: 10px;
+          margin: 10px 0 10px 0;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+      .mobile {
+        display: inline;
+      }
+
+      .desktop {
+        display: none;
+      }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      .mobile {
+        display: inline;
+      }
+
+      .desktop {
+        display: none;
+      }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      .mobile {
+        display: inline;
+      }
+
+      .desktop {
+        display: none;
+      }
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      .mobile {
+        display: none;
+      }
+
+      .desktop {
+        display: inline;
+      }
+
+      .textoTopo h1 {
+        font-size: 3.4em;
+      }
+
+      .textoTopo h2 {
+        font-size: 2em;
+      }
+
+
+      #contato-text p {
+        font-size: 1.8em;
+      }
+
+      .btn-contato {
+        font-size: 1.4em;
+      }
+
+
+      .calendario {
+        font-weight: 700;
+        font-size: 1.8em;
+        margin-top: 50px;
+      }
+
+      .header-cursos {
+        margin-top: 25px;
+
+      }
+
+
+
+      .curso-title {
+        font-size: 2em;
+        text-align: left;
+        margin-left: 12px !important;
+      }
+
+      .curso-item {
+        margin: 0 0 0 0;
+        font-size: 1.2em;
+        text-align: left;
+      }
+
+      .condicao-inner p {
+        margin: 0;
+      }
+
+      .valor {
+        font-size: 1.6em;
+      }
+
+      .parcelas {
+          font-size: 1.0em;
+      }
+
+      .economia {
+        font-size: 1.5em;
+      }
+    
+      .resto {
+        font-size: 1.6em;
+      }
+    
+    }
+
+
